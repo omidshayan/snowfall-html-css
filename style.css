@@ -1,0 +1,198 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.winter{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.winter span{
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+}
+.winter span:nth-child(1){
+    left: 92%;
+    animation: snow-animation 10s infinite;
+}
+
+.winter span:nth-child(2){
+    left: 50%;
+    animation: snow-animation 15s infinite;
+}
+.winter span:nth-child(3){
+    left: 13%;
+    animation: snow-animation 12s infinite;
+}
+.winter span:nth-child(4){
+    left: 30%;
+    animation: snow-animation 13s infinite;
+}
+.winter span:nth-child(5){
+    left: 70%;
+    animation: snow-animation 11s infinite;
+}
+.winter span:nth-child(6) {
+    left: 28%;
+    animation: snow-animation 7s infinite;
+
+}
+.winter span:nth-child(7) {
+    left: 40%;
+    animation: snow-animation 9s infinite;
+
+}
+.winter span:nth-child(8) {
+    right: 9%;
+    animation: snow-animation 10s infinite;
+
+}
+.winter span:nth-child(9) {
+    right:41%;
+    animation: snow-animation 15s infinite;
+
+}
+.winter span:nth-child(10) {
+    left: 18%;
+    animation: snow-animation 14s infinite;
+}
+.winter span:nth-child(11) {
+    right: 11%;
+    animation: snow-animation 16s infinite;
+}
+.winter span:nth-child(12) {
+    right: 23%;
+    animation: snow-animation 10s infinite;
+}
+.winter span:nth-child(13) {
+    left: 59%;
+    animation: snow-animation 17s infinite;
+}
+.winter span:nth-child(14) {
+    left: 60%;
+    animation: snow-animation 15s infinite;
+}
+.winter span:nth-child(15) {
+    left: 70%;
+    animation: snow-animation 16s infinite;
+}
+.winter span:nth-child(16) {
+    left: 4%;
+    animation: snow-animation 12s infinite;
+}
+.winter span:nth-child(17) {
+    left: 3%;
+    animation: snow-animation 7s infinite;
+}
+.winter span:nth-child(18) {
+    left: 66%;
+    animation: snow-animation 6s infinite;
+}
+.winter span:nth-child(19) {
+    left: 54%;
+    animation: snow-animation 18s infinite;
+}
+.winter span:nth-child(20) {
+    left: 38%;
+    animation: snow-animation 20s infinite;
+}
+.winter span:nth-child(21) {
+    left: 67%;
+    animation: snow-animation 14s infinite;
+}
+.winter span:nth-child(22) {
+    left: 50%;
+    animation: snow-animation 19s infinite;
+}
+.winter span:nth-child(23) {
+    left: 55%;
+    animation: snow-animation 17s infinite;
+}
+.winter span:nth-child(24) {
+    left: 63%;
+    animation: snow-animation 15s infinite;
+}
+.winter span:nth-child(25) {
+    left: 59%;
+    animation: snow-animation 14s infinite;
+}
+.winter span:nth-child(26) {
+    left: 70%;
+    animation: snow-animation 8s infinite;
+}
+.winter span:nth-child(27) {
+    left: 65%;
+    animation: snow-animation 14s infinite;
+}
+.winter span:nth-child(28) {
+    left: 6%;
+    animation: snow-animation 16s infinite;
+}
+.winter span:nth-child(29) {
+    left: 78%;
+    animation: snow-animation 14s infinite;
+}
+.winter span:nth-child(30) {
+    left: 80%;
+    animation: snow-animation 15s infinite;
+}
+.winter span:nth-child(31) {
+    left: 87%;
+    animation: snow-animation 18s infinite;
+}
+.winter span:nth-child(32) {
+    left: 16%;
+    animation: snow-animation 12s infinite;
+}
+.winter span:nth-child(33) {
+    left: 24%;
+    animation: snow-animation 13s infinite;
+}
+.winter span:nth-child(34) {
+    left: 34%;
+    animation: snow-animation 8s infinite;
+}
+.winter span:nth-child(35) {
+    left: 57%;
+    animation: snow-animation 7s infinite;
+}
+.winter span:nth-child(36) {
+    left: 29%;
+    animation: snow-animation 15s infinite;
+}
+.winter span:nth-child(37) {
+    left: 45%;
+    animation: snow-animation 12s infinite;
+}
+.winter span:nth-child(38) {
+    left: 32%;
+    animation: snow-animation 16s infinite;
+}
+.winter span:nth-child(39) {
+    left: 79%;
+    animation: snow-animation 11s infinite;
+}
+.winter span:nth-child(40) {
+    left: 94%;
+    animation: snow-animation 17s infinite;
+}
+
+
+
+
+
+@keyframes snow-animation{
+    0%{
+        top: -20;
+    }
+    100%{
+        top: 120%;
+    }
+}
